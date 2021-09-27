@@ -74,6 +74,11 @@ contract CREATESET {
     KBATZRX           [Symbol]
      
      
+     SET CREATED  
+     
+     https://kovan.etherscan.io/token/0x1b21742a271ee85f837d208c5e9b99be6cdea6ce#readContract
+     
+     SET KOVAN-BAT-ZRX Address  = 0x1b21742a271ee85f837d208c5e9b99be6cdea6ce;
      
      */
 
