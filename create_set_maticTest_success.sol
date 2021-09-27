@@ -80,6 +80,48 @@ contract CREATESET {
      
      SET KOVAN-BAT-ZRX Address  = 0x1b21742a271ee85f837d208c5e9b99be6cdea6ce;
      
+     
+     
+     
+		To intialize NAV Issuance: 
+ ['0x0000000000000000000000000000000000000000' , '0x0000000000000000000000000000000000000000' ,['0xb7a4F3E9097C08dA09517b5aB877F7a917224ede','0xd0A1E359811322d97991E03f863a0C30C2cF029C'],'0x3793f758a36c04B51a520a59520e4d845f94F9F2',['100000000000000','1000000000000000000'] ,500000000000000000, 100000000000000 ,1000000000000000000, 1000000000000000000 ]
+   
+ [managerIssuanceHook , managerRedemptionHook , address[] reserveAssets(USDC ,WETH) , feeRecipient , uint[2]managerFees , maxManagerFee ,premiumPercentage ,maxPremiumPercentage , minSetTokenSupply ]
+		
+		
+		
+		
+		
+		
+		  Manager Fees [2]               0.01%  1%
+			
+			100000000000000    1000000000000000000
+
+
+Maximum Manager Fee :  50%
+	    
+ 500000000000000000
+		
+		
+	premiumPercentage    0.01%
+	
+	100000000000000
+
+
+maxPremiumPercentage   1%
+	
+	1000000000000000000
+
+
+minSetTokenSupply  : 1
+
+
+1000000000000000000
+
+
+
+
+     
      */
 
 
