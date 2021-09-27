@@ -38,6 +38,8 @@ contract CREATESET {
     address public MockZRX =  0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3 ;
     address public MockWETH =  0xd0A1E359811322d97991E03f863a0C30C2cF029C ;
     
+    address public sushiSWAPExchangeAdapterKovan = 0xbFAD1987608a38bfA0FE4c5510c1aF834aE21379 ;
+    
  
 
     
@@ -58,7 +60,18 @@ contract CREATESET {
      Underlying Component 1 : MockBAT = 0x482dC9bB08111CB875109B075A40881E48aE02Cd  ,  Allocation % = 30%
      Underlying Component 2 : MockZRX = 0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3  ,  Allocation % = 70%
      
-     
+     ["0x482dC9bB08111CB875109B075A40881E48aE02Cd" , "0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3"]    [MockBAT,MockZRX]
+
+     ["20000000000000000000" ,"30000000000000000000"]    [20 MockBAT , 30 MockZRX]
+
+    ["0x8a070235a4B9b477655Bf4Eb65a1dB81051B3cC1" , "0x5dB52450a8C0eb5e0B777D4e08d7A93dA5a9c848" , "0xE038E59DEEC8657d105B6a3Fb5040b3a6189Dd51" ]    [Modules To Be Added]
+                [BasicIssuanceModuleKovanAddress ,0x5dB52450a8C0eb5e0B777D4e08d7A93dA5a9c848 , StreamingFeeModuleKovanAddress]
+
+    0x3793f758a36c04B51a520a59520e4d845f94F9F2   [Manager Address]
+
+    KOVAN-BAT-ZRX       [Name]
+    
+    KBATZRX           [Symbol]
      
      
      
